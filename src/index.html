@@ -4,11 +4,27 @@
   <meta charset="utf-8">
   <title>Ssr</title>
   <base href="/">
-
+  <style>
+    .test { 
+      width: 200px;
+      height: 100px;
+      background: red;
+      display: inline-block;
+    }
+    .test::after{
+      content: '';
+      display: inline-block;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background: blue;
+    }
+  </style>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
+  
   <app-root></app-root>
 </body>
 </html>
