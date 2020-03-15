@@ -33,7 +33,7 @@
     "@nguniversal/common": "^7.1.1",
     "@nguniversal/express-engine": "^7.0.0",
     "@nguniversal/module-map-ngfactory-loader": "^7.0.0",
-    "acorn": "^6.1.1",
+    "acorn": "^6.4.1",
     "cheerio": "^1.0.0-rc.3",
     "core-js": "^2.5.4",
     "ng-zorro-antd": "^7.4.1",
